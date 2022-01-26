@@ -1,0 +1,24 @@
+insert into users (f_name, l_name, email)
+value("Sue", "Yang", "sueyang112@hotmail.com")
+
+insert into users (f_name, l_name, email)
+value("Ada", "Yang", "faithyang112@gmail.com")
+
+insert into users (f_name, l_name, email)
+value("Jayda", "Lee", "jaydalee112@gmail.com")
+
+select * from users
+
+select id
+from users
+where id = 3;
+
+update users set l_name = 'Pancakes' where id = 3;
+
+delete from users where id = 2
+
+select * from users
+order by f_name
+
+select * from users
+order by l_name DESC;
